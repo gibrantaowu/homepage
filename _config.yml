@@ -24,13 +24,13 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Tao Wu"
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  location         : "Singapore"
+  employer         : "Nanyang Technological University"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "tao011@e.ntu.edu.sg" 
 
   # Academic websites
   academia         : # URL
