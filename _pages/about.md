@@ -15,20 +15,22 @@ I am currently a member of the Natural Programming Lab, where my research focuse
 
 Publication
 ======
-### <a href="https://arxiv.org/abs/2412.10726" target="_blank" style="color:#1a73e8; text-decoration:none;">
-NoisyEQA: Benchmarking Embodied Question Answering Against Noisy Queries
-</a>
+<p style="margin-bottom: 1.5em;">
+  <a href="https://arxiv.org/abs/2412.10726" target="_blank" style="color: #1a73e8; text-decoration: none; font-size: 1.2em; font-weight: 600;">
+    NoisyEQA: Benchmarking Embodied Question Answering Against Noisy Queries
+  </a><br>
+  <strong>Tao Wu</strong>, Chuhao Zhou, Yen Heng Wong, Lin Gu, Jianfei Yang<br>
+  <em>Accepted by IROS 2025 Workshop</em>
+</p>
 
-**Tao Wu**, Chuhao Zhou, Yen Heng Wong, Lin Gu, Jianfei Yang  
-*Accepted by IROS 2025 Workshop*
+<hr>
 
----
-
-### <a href="http://arxiv.org/abs/2512.04597" target="_blank" style="color:#1a73e8; text-decoration:none;">
-When Robots Should Say "I Don't Know": Benchmarking Abstention in Embodied Question Answering
-</a>
-
-**Tao Wu**, Chuhao Zhou, Guangyu Zhao, Haozhi Cao, Yewen Pu, Jianfei Yang  
-*Accepted by CVPR 2026*
+<p style="margin-top: 1.5em; margin-bottom: 1.5em;">
+  <a href="http://arxiv.org/abs/2512.04597" target="_blank" style="color: #1a73e8; text-decoration: none; font-size: 1.2em; font-weight: 600;">
+    When Robots Should Say “I Don’t Know”: Benchmarking Abstention in Embodied Question Answering
+  </a><br>
+  <strong>Tao Wu</strong>, Chuhao Zhou, Guangyu Zhao, Haozhi Cao, Yewen Pu, Jianfei Yang<br>
+  <em>Accepted by CVPR 2026</em>
+</p>
 
 ---
