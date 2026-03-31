@@ -7,9 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+My name is Tao Wu. I am a first-year PhD student at the College of Computing and Data Science (CCDS), Nanyang Technological University, supervised by Prof. Yewen Pu.
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+I received my Bachelor's degree from Northwestern Polytechnical University and my Master's degree from Nanyang Technological University. During my master's studies, under the supervision of Prof. Jianfei Yang, I began working on the impact of noise in human communication on Embodied Question Answering (EQA). This work led to two projects: NoisyEQA and AbstainEQA.
+
+I am currently a member of the Natural Programming Lab, where my research focuses on understanding the differences between human-agent communication and human-human communication. More broadly, my research interests lie in Human-Agent/Robot Interaction and Embodied AI.
 
 A data-driven personal website
 ======
