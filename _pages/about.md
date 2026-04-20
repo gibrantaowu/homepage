@@ -13,22 +13,4 @@ I received my Bachelor's degree from Northwestern Polytechnical University and m
 
 I am currently a member of the Natural Programming Lab, where my research focuses on understanding the differences between human-agent communication and human-human communication. More broadly, my research interests lie in Human-Agent/Robot Interaction and Embodied AI.
 
-Publication
-======
-<div style="margin-bottom: 1em;">
-  <a href="https://arxiv.org/abs/2412.10726" target="_blank" style="color:#1a73e8; text-decoration:none; font-size:1.1em; font-weight:600;">
-    NoisyEQA: Benchmarking Embodied Question Answering Against Noisy Queries
-  </a><br>
-  <strong>Tao Wu</strong>, Chuhao Zhou, Yen Heng Wong, Lin Gu, Jianfei Yang<br>
-  <em>Accepted by IROS 2025 Workshop</em>
-</div>
-
-<div style="margin-bottom: 1em;">
-  <a href="http://arxiv.org/abs/2512.04597" target="_blank" style="color:#1a73e8; text-decoration:none; font-size:1.1em; font-weight:600;">
-    When Robots Should Say “I Don’t Know”: Benchmarking Abstention in Embodied Question Answering
-  </a><br>
-  <strong>Tao Wu</strong>, Chuhao Zhou, Guangyu Zhao, Haozhi Cao, Yewen Pu, Jianfei Yang<br>
-  <em>Accepted by CVPR 2026</em>
-</div>>
-
 ---
