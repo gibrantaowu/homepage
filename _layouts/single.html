@@ -46,6 +46,9 @@ layout: default
 
       {% capture main_block %}
       <section class="page__content" itemprop="text">
+        {% if page.home_profile_row %}
+        {% include home-intro-card.html %}
+        {% endif %}
         {{ content }}
 
         {% if page.citation and page.paperurl and page.slidesurl and page.bibtexurl %}
@@ -89,18 +92,7 @@ layout: default
       {% include post_pagination.html %}
       {% endcapture %}
 
-      {% if page.home_profile_row %}
-      <div class="home-profile">
-        <aside class="home-profile__avatar" aria-label="Profile photo">
-          {% include author-avatar-only.html %}
-        </aside>
-        <div class="home-profile__main">
-          {{ main_block }}
-        </div>
-      </div>
-      {% else %}
       {{ main_block }}
-      {% endif %}
     </div>
 
     {% if site.comments.provider and page.comments %}
