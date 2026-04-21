@@ -41,6 +41,10 @@
   & + .page__meta {
     margin-top: -0.5em;
   }
+
+  &--like-h2 {
+    font-size: $type-size-4;
+  }
 }
 
 .page__lead {
