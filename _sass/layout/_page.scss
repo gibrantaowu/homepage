@@ -17,12 +17,12 @@
 
   /* Homepage: narrower column so bio/publication cards are not stretched edge-to-edge */
   &.main--home {
-    max-width: 52rem;
+    max-width: 40rem;
     margin-left: auto;
     margin-right: auto;
 
     @include breakpoint($x-large) {
-      max-width: 52rem;
+      max-width: 40rem;
     }
   }
 }
@@ -309,51 +309,15 @@
       border: 1px solid rgba(82, 173, 200, 0.35);
     }
 
-    /* Bio card: same 180px column as publications; photo natural height, not tiny icon */
-    &--intro {
-      @include breakpoint($medium) {
-        align-items: start;
-      }
+  }
 
-      .research-highlight-card__media {
-        max-width: 11.25rem;
-
-        @include breakpoint($medium) {
-          align-self: start;
-        }
-      }
-
-      .research-highlight-card__media-link {
-        @include breakpoint($medium) {
-          flex: 0 0 auto;
-          min-height: 0;
-          height: auto;
-        }
-
-        img {
-          width: 100%;
-          height: auto;
-          min-height: 0;
-          flex: 0 0 auto;
-          object-fit: cover;
-          object-position: center top;
-
-          @include breakpoint($medium) {
-            width: 180px;
-            max-width: 100%;
-            height: auto;
-            aspect-ratio: auto;
-          }
-        }
-      }
-
-      .research-highlight-card__intro-bio p:first-child {
-        margin-top: 0;
-      }
-
-      .research-highlight-card__intro-bio p:last-child {
-        margin-bottom: 0;
-      }
+  /* Intro bio: match publication card body typography & alignment (same grid as paper cards) */
+  .research-highlight-card__intro-bio {
+    p {
+      margin: 0;
+      font-size: $type-size-7;
+      line-height: 1.4;
+      color: var(--global-text-color);
     }
   }
 
