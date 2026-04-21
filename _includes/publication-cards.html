@@ -4,7 +4,6 @@
   {% for item in highlights %}
   {% assign link_href = item.title_url | default: item.paper_url %}
   <article class="research-highlight-card">
-    <span class="research-highlight-card__deco" aria-hidden="true"><i class="fas fa-scroll"></i></span>
     <div class="research-highlight-card__media">
       {% if link_href and link_href != '' %}
       <a href="{{ link_href }}" class="research-highlight-card__media-link">
@@ -61,6 +60,7 @@
         {% endif %}
       </div>
     </div>
+    <span class="research-highlight-card__deco" aria-hidden="true"><i class="fas fa-scroll"></i></span>
   </article>
   {% endfor %}
 </div>

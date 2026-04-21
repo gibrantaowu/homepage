@@ -1,7 +1,8 @@
 ---
 permalink: /
 title: "吴涛(Tao Wu)"
-author_profile: true
+author_profile: false
+home_profile_row: true
 redirect_from: 
   - /about/
   - /about.html
