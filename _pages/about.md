@@ -13,4 +13,9 @@ I received my Bachelor's degree from Northwestern Polytechnical University and m
 
 I am currently a member of the Natural Programming Lab, where my research focuses on understanding the differences between human-agent communication and human-human communication. More broadly, my research interests lie in Human-Agent/Robot Interaction and Embodied AI.
 
+## News
+
+- **2026** — *When Robots Should Say “I Don’t Know”* (AbstainEQA) accepted to **CVPR 2026**.
+- **2025** — *NoisyEQA* accepted to the **IROS 2025** workshop.
+
 ---

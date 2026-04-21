@@ -1,0 +1,26 @@
+# Publication cards on /publications/ — see _includes/publication-cards.html
+- title: "NoisyEQA: Benchmarking Embodied Question Answering Against Noisy Queries"
+  title_url: "https://arxiv.org/abs/2412.10726"
+  authors: "Tao Wu, Chuhao Zhou, Yen Heng Wong, Lin Gu, Jianfei Yang"
+  venue_line: "IROS 2025 Workshop"
+  excerpt: "Benchmarks embodied QA when human queries are noisy or imperfect, bridging to real-world deployment."
+  paper_url: "https://arxiv.org/abs/2412.10726"
+  website_url: ""
+  image: /images/highlights/noisy-eqa-teaser.svg
+  tags:
+    - embodied-qa
+    - robotics
+    - eqa
+
+- title: "When Robots Should Say \"I Don't Know\": Benchmarking Abstention in Embodied Question Answering"
+  title_url: "https://arxiv.org/abs/2512.04597"
+  authors: "Tao Wu, Chuhao Zhou, Guangyu Zhao, Haozhi Cao, Yewen Pu, Jianfei Yang"
+  venue_line: "CVPR 2026"
+  excerpt: "Abstention benchmarking in embodied QA—when models should decline to answer versus humans."
+  paper_url: "https://arxiv.org/abs/2512.04597"
+  website_url: ""
+  image: /images/highlights/abstain-eqa-teaser.svg
+  tags:
+    - embodied-qa
+    - abstention
+    - cvpr
