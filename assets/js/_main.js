@@ -54,10 +54,11 @@ $(document).ready(function () {
 
   setTheme();
 
-  // Enable the sticky footer
+  // Sticky spacing when a footer exists (footer disabled on this site)
   var bumpIt = function () {
     $("body").css("padding-bottom", "0");
-    $("body").css("margin-bottom", $(".page__footer").outerHeight(true));
+    var $f = $(".page__footer");
+    $("body").css("margin-bottom", $f.length ? $f.outerHeight(true) : 0);
   }
   $(window).resize(function () {
     didResize = true;
