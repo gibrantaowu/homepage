@@ -17,5 +17,5 @@ My name is Tao Wu, a first-year PhD at the College of Computing and Data Science
 
 ## News
 
-- **April 2026** — My paper (When Robots should say I don't know) is selected as a CVPR highlight paper.
-- **October 2025** — NoisyEQA is accepted to the IROS 2025 workshop.
+- **April 2026** — *When Robots should say I don't know* is selected as a CVPR highlight paper.
+- **October 2025** — *NoisyEQA* is accepted to the IROS 2025 workshop.
