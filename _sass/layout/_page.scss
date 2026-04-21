@@ -311,18 +311,42 @@
 
   }
 
-  /* Intro bio: match publication card body typography & alignment (same grid as paper cards) */
-  .research-highlight-card__intro-bio {
-    p {
-      margin: 0;
-      font-size: $type-size-7;
-      line-height: 1.4;
-      color: var(--global-text-color);
-    }
-  }
-
+  /* Intro card under name: taller, slightly larger type, no borders */
   .research-highlight-cards--intro-bio {
     margin-bottom: 0.85rem;
+
+    .research-highlight-card {
+      border: none;
+      box-shadow: none;
+      padding: 1rem 0.35rem;
+
+      @include breakpoint($medium) {
+        min-height: 9.5rem;
+        padding: 1.15rem 0.5rem;
+      }
+    }
+
+    .research-highlight-card__media-link {
+      border: none;
+      box-shadow: none;
+
+      @include breakpoint($medium) {
+        min-height: 152px;
+      }
+
+      img {
+        @include breakpoint($medium) {
+          min-height: 152px;
+        }
+      }
+    }
+
+    .research-highlight-card__intro-bio p {
+      margin: 0;
+      font-size: $type-size-5;
+      line-height: 1.55;
+      color: var(--global-text-color);
+    }
   }
 
   @at-root html[data-theme="dark"] .page__content .research-highlight-card__tag {
