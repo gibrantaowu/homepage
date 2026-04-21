@@ -14,7 +14,7 @@ layout: default
   {% endunless %}
 {% endif %}
 
-<div id="main" role="main">
+<div id="main" class="{% if page.home_profile_row %}main--home{% endif %}" role="main">
   {% include sidebar.html %}
 
   <article class="page {% if page.home_profile_row %}page--home-profile{% endif %}" itemscope itemtype="http://schema.org/CreativeWork">

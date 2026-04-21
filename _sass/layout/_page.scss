@@ -14,6 +14,17 @@
   @include breakpoint($x-large) {
     max-width: $x-large;
   }
+
+  /* Homepage: narrower column so bio/publication cards are not stretched edge-to-edge */
+  &.main--home {
+    max-width: 52rem;
+    margin-left: auto;
+    margin-right: auto;
+
+    @include breakpoint($x-large) {
+      max-width: 52rem;
+    }
+  }
 }
 
 .page {
@@ -298,14 +309,14 @@
       border: 1px solid rgba(82, 173, 200, 0.35);
     }
 
+    /* Bio card: same 180px column as publications; photo natural height, not tiny icon */
     &--intro {
       @include breakpoint($medium) {
-        grid-template-columns: 120px minmax(0, 1fr);
         align-items: start;
       }
 
       .research-highlight-card__media {
-        max-width: 7rem;
+        max-width: 11.25rem;
 
         @include breakpoint($medium) {
           align-self: start;
@@ -320,14 +331,18 @@
         }
 
         img {
-          max-width: 104px;
           width: 100%;
           height: auto;
           min-height: 0;
+          flex: 0 0 auto;
+          object-fit: cover;
+          object-position: center top;
 
           @include breakpoint($medium) {
-            width: 104px;
-            flex: 0 0 auto;
+            width: 180px;
+            max-width: 100%;
+            height: auto;
+            aspect-ratio: auto;
           }
         }
       }
