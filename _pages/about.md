@@ -20,7 +20,7 @@ I am currently a member of the Natural Programming Lab, where my research focuse
 
 ## News
 
-- **2026** — *When Robots Should Say “I Don’t Know”* (AbstainEQA) accepted to **CVPR 2026**.
-- **2025** — *NoisyEQA* accepted to the **IROS 2025** workshop.
+- **April 2026** — My paper (When Robots should say I don't know) is selected as a CVPR highlight paper.
+- **October 2025** — NoisyEQA is accepted to the IROS 2025 workshop.
 
 ---

@@ -1,4 +1,17 @@
-# Publication cards on /publications/ — see _includes/publication-cards.html
+# Publication cards — order: AbstainEQA first, NoisyEQA second
+- title: "When Robots Should Say \"I Don't Know\": Benchmarking Abstention in Embodied Question Answering"
+  title_url: "https://arxiv.org/abs/2512.04597"
+  authors: "Tao Wu, Chuhao Zhou, Guangyu Zhao, Haozhi Cao, Yewen Pu, Jianfei Yang"
+  venue_line: "CVPR 2026 (Highlight)"
+  excerpt: "Abstention benchmarking in embodied QA—when models should decline to answer versus humans."
+  paper_url: "https://arxiv.org/abs/2512.04597"
+  website_url: ""
+  image: /images/highlights/abstain-eqa.png
+  tags:
+    - embodied-qa
+    - abstention
+    - cvpr
+
 - title: "NoisyEQA: Benchmarking Embodied Question Answering Against Noisy Queries"
   title_url: "https://arxiv.org/abs/2412.10726"
   authors: "Tao Wu, Chuhao Zhou, Yen Heng Wong, Lin Gu, Jianfei Yang"
@@ -11,16 +24,3 @@
     - embodied-qa
     - robotics
     - eqa
-
-- title: "When Robots Should Say \"I Don't Know\": Benchmarking Abstention in Embodied Question Answering"
-  title_url: "https://arxiv.org/abs/2512.04597"
-  authors: "Tao Wu, Chuhao Zhou, Guangyu Zhao, Haozhi Cao, Yewen Pu, Jianfei Yang"
-  venue_line: "CVPR 2026"
-  excerpt: "Abstention benchmarking in embodied QA—when models should decline to answer versus humans."
-  paper_url: "https://arxiv.org/abs/2512.04597"
-  website_url: ""
-  image: /images/highlights/abstain-eqa.png
-  tags:
-    - embodied-qa
-    - abstention
-    - cvpr
