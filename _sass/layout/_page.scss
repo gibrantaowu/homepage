@@ -14,17 +14,6 @@
   @include breakpoint($x-large) {
     max-width: $x-large;
   }
-
-  /* Homepage: narrower column so bio/publication cards are not stretched edge-to-edge */
-  &.main--home {
-    max-width: 40rem;
-    margin-left: auto;
-    margin-right: auto;
-
-    @include breakpoint($x-large) {
-      max-width: 40rem;
-    }
-  }
 }
 
 .page {
@@ -32,14 +21,6 @@
     @include span(10 of 12 last);
     @include prefix(0.5 of 12);
     @include suffix(2 of 12);
-  }
-
-  &--home-profile {
-    @include breakpoint($large) {
-      @include span(12 of 12 last);
-      @include prefix(0 of 12);
-      @include suffix(0 of 12);
-    }
   }
 
   .page__inner-wrap {
@@ -309,44 +290,6 @@
       border: 1px solid rgba(82, 173, 200, 0.35);
     }
 
-  }
-
-  /* Intro card under name: taller, slightly larger type, no borders */
-  .research-highlight-cards--intro-bio {
-    margin-bottom: 0.85rem;
-
-    .research-highlight-card {
-      border: none;
-      box-shadow: none;
-      padding: 1rem 0.35rem;
-
-      @include breakpoint($medium) {
-        min-height: 9.5rem;
-        padding: 1.15rem 0.5rem;
-      }
-    }
-
-    .research-highlight-card__media-link {
-      border: none;
-      box-shadow: none;
-
-      @include breakpoint($medium) {
-        min-height: 152px;
-      }
-
-      img {
-        @include breakpoint($medium) {
-          min-height: 152px;
-        }
-      }
-    }
-
-    .research-highlight-card__intro-bio p {
-      margin: 0;
-      font-size: $type-size-5;
-      line-height: 1.55;
-      color: var(--global-text-color);
-    }
   }
 
   @at-root html[data-theme="dark"] .page__content .research-highlight-card__tag {
