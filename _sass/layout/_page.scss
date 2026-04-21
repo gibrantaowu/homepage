@@ -299,6 +299,39 @@
     }
 
     &--intro {
+      @include breakpoint($medium) {
+        grid-template-columns: 120px minmax(0, 1fr);
+        align-items: start;
+      }
+
+      .research-highlight-card__media {
+        max-width: 7rem;
+
+        @include breakpoint($medium) {
+          align-self: start;
+        }
+      }
+
+      .research-highlight-card__media-link {
+        @include breakpoint($medium) {
+          flex: 0 0 auto;
+          min-height: 0;
+          height: auto;
+        }
+
+        img {
+          max-width: 104px;
+          width: 100%;
+          height: auto;
+          min-height: 0;
+
+          @include breakpoint($medium) {
+            width: 104px;
+            flex: 0 0 auto;
+          }
+        }
+      }
+
       .research-highlight-card__intro-bio p:first-child {
         margin-top: 0;
       }
