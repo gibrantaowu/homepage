@@ -6,7 +6,7 @@
   excerpt: "Benchmarks embodied QA when human queries are noisy or imperfect, bridging to real-world deployment."
   paper_url: "https://arxiv.org/abs/2412.10726"
   website_url: ""
-  image: /images/highlights/noisy-eqa-teaser.svg
+  image: /images/highlights/noisy-eqa.png
   tags:
     - embodied-qa
     - robotics
@@ -19,7 +19,7 @@
   excerpt: "Abstention benchmarking in embodied QA—when models should decline to answer versus humans."
   paper_url: "https://arxiv.org/abs/2512.04597"
   website_url: ""
-  image: /images/highlights/abstain-eqa-teaser.svg
+  image: /images/highlights/abstain-eqa.png
   tags:
     - embodied-qa
     - abstention
